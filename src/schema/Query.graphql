@@ -1,0 +1,7 @@
+  type Query {
+    getProfile: [Profile]
+    getFilterProfile(filter: ProfileFilter!): Profile
+    getUser: [User]
+    getFilterUser(filter: UserFilter!): User
+    login(data:UserLoginInput!):User
+  }

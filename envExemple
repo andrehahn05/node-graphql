@@ -1,0 +1,9 @@
+NODE_ENV=development
+
+DB_HOST=localhost
+DB_PORT=5432
+DB_NAME=database
+DB_USER=root
+DB_PASS=
+AUTH_SECRET=escolher um segredo!
+
